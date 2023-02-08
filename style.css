@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+  text-align: center;
+  background-color: rgb(141, 166, 143);
+  font-size: large;
+  font-family: 'Abel', sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+.img-circle{
+  box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height:300px;
+  object-fit:cover;
+  border-radius: 50%;
+}
+
+h2 {
+  color: rgba(40 40 40 0,8);
+}
+
+.cta {
+  background-color: rgb(85, 152, 111);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  color: #922D3E;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.card {
+background-color: rgb(240, 240, 240);
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+padding: 5px;
+margin: 30px;
+text-align: center;
+}
+h3 {
+  font-weight: 900;
+}
+a:hover {
+color: rgb(226, 10, 10);
+transition: 800ms ease;
+}
+
+a:visited {
+  color: rgb(109, 189, 189);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
